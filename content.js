@@ -6,7 +6,7 @@ $( function() {
       sub_content.innerHTML = output;
    };
    $.ajax( {
-      url: "content.php",
+      url: "content.json",
       data: {},
       success: parseData,
       dataType: "json"
